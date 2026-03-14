@@ -1,0 +1,1 @@
+const habilidades = ["PYTHON", "LINUX", "IA", "N8N", "APIS"];
