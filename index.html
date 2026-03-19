@@ -2,16 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Título de la página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="App.css">
+    <title>Perfil de Usuario</title>
 </head>
 <body>
-    <h1>¡Hola Mundo!</h1>
 
-    <p>Este es el contenido visible.</p>
+    <h1>Perfil de Usuario</h1>
+
+    <img id="avatar" src="" alt="Avatar de usuario" />
+
+    <p><strong>Nombre:</strong> <span id="nombre">—</span></p>
+    <p><strong>Usuario:</strong> <span id="usuario">—</span></p>
+    <p><strong>Email:</strong> <span id="email">—</span></p>
+    <p><strong>Ciudad:</strong> <span id="ciudad">—</span></p>
 
     <div id="etiquetas"></div>
 
-    <script>"App.js"</script>
+    <p id="mensaje"></p>
 
+    <button id="btn">Cargar Perfil</button>
+
+    <script src="App.js"></script>
 </body>
 </html>
